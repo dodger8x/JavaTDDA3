@@ -2,13 +2,14 @@ package com.example.demo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import static java.lang.Integer.parseInt;
 
 public class ColourTest {
     float redValue;
     float greenValue;
     float blueValue;
     @Test
-    void testColour() {
+    void testColourConstructor1() {
        Colour colourTester =new Colour(.4,.3,.7);
        redValue=colourTester.getRed();
        Assertions.assertEquals((float).4,redValue);
@@ -16,11 +17,12 @@ public class ColourTest {
        Assertions.assertEquals((float).3,greenValue);
        blueValue=colourTester.getBlue();
        Assertions.assertEquals((float).7,blueValue);
-       Colour colourTester2= new Colour("110101010101010101010101");
-
-
     }
 
+    @Test
+    void testColourConstructor2() {
+        Colour colourTester2= new Colour("001100110101010101010101");
 
+    }
 }
 
