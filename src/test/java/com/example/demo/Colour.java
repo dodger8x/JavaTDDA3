@@ -10,7 +10,7 @@ public class Colour {
     public Colour(double red, double green, double blue){
         this.red= (float) red;
         this.green=(float) green;
-
+        this.blue=(float) blue;
     }
 
     public float getRed() {
@@ -22,6 +22,6 @@ public class Colour {
     }
 
     public float getBlue() {
-        return 0;
+        return blue;
     }
 }
