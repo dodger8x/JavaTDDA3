@@ -13,14 +13,14 @@ public class Colour {
         this.blue=(float) blue;
     }
     String currentColour;
-    String s;
+    String rgbValue;
 
-    public Colour(String s) {
-        this.s=s;
+    public Colour(String rgbValue) {
+        this.rgbValue =rgbValue;
         float [] ColArray = new float[3];
         int count=0;
         for (int i =0;i<3;i++){
-            currentColour=s.substring(count,count+8);
+            currentColour= this.rgbValue.substring(count,count+8);
             ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
             count+=8;
         }
