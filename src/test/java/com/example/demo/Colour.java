@@ -13,6 +13,9 @@ public class Colour {
         this.blue=(float) blue;
     }
 
+    public Colour(String s) {
+    }
+
     public float getRed() {
         return red;
     }
