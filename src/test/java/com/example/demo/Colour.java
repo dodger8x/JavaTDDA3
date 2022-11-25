@@ -8,11 +8,11 @@ public class Colour {
     float green;
     float blue;
     public Colour(double red, double green, double blue){
-
+        this.red= (float) red;
 
     }
 
     public float getRed() {
-        return 0;
+        return red;
     }
 }

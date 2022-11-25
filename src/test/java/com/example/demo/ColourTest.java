@@ -9,7 +9,7 @@ public class ColourTest {
     void testColour() {
        Colour colourTester =new Colour(.4,.3,.7);
        redValue=colourTester.getRed();
-
+        Assertions.assertEquals((float).4,redValue);
     }
 
 
