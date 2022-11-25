@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused the assert to succeed by using substring and parseInt in the second constructor to extract and calculate the value of the binary sequence and made that value equal to red">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669406703895</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created assert to test if value of the middle 8 digits of the binary sequence which represented the green value was equal to the value the getter returned for colourTester2.The assert failed">
+      <created>1669406952048</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669406952048</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively">
+      <created>1669407207225</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669407207225</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +209,8 @@
     <MESSAGE value="Renamed testColour to testColourConstructor1 and made new test method testColourConstructor2. Moved tests for the second constructor to testColourConstructor2 to make the test file neater" />
     <MESSAGE value="Created assert to test if value of the first 8 digits of the binary sequence which represented red value was equal to the value the getter returned for colourTester2. Used parseInt function imported from Integer class to turn 8 digit binary into a number. The assert failed" />
     <MESSAGE value="Caused the assert to succeed by using substring and parseInt in the second constructor to extract and calculate the value of the binary sequence and made that value equal to red" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caused the assert to succeed by using substring and parseInt in the second constructor to extract and calculate the value of the binary sequence and made that value equal to red" />
+    <MESSAGE value="Created assert to test if value of the middle 8 digits of the binary sequence which represented the green value was equal to the value the getter returned for colourTester2.The assert failed" />
+    <MESSAGE value="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively" />
   </component>
 </project>
