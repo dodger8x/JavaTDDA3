@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669397528834</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter">
+      <created>1669397909563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669397909563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +123,7 @@
     <MESSAGE value="Refactored variable names in Colour constructor to be more descriptive" />
     <MESSAGE value="Created test method for getter for red value in ColourTest.java. Then generated getRed method to be tested in Colour.java" />
     <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
+    <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
   </component>
 </project>
