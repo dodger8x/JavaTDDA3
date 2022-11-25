@@ -20,4 +20,8 @@ public class Colour {
     public float getGreen() {
         return green;
     }
+
+    public float getBlue() {
+        return 0;
+    }
 }

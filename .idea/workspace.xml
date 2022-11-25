@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused assertion to pass by assigning green value in constructor and returning green variable in getter">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669398276385</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Caused assertion to pass by assigning green value in constructor and returning green variable in getter">
+      <created>1669398485538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669398485538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +147,7 @@
     <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
     <MESSAGE value="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java" />
     <MESSAGE value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
+    <MESSAGE value="Caused assertion to pass by assigning green value in constructor and returning green variable in getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caused assertion to pass by assigning green value in constructor and returning green variable in getter" />
   </component>
 </project>
