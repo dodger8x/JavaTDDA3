@@ -13,6 +13,7 @@ public class ColourTest {
        redValue=colourTester.getRed();
        Assertions.assertEquals((float).4,redValue);
        greenValue=colourTester.getGreen();
+       Assertions.assertEquals((float).3,greenValue);
     }
 
 
