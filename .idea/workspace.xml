@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created test method testColour and generated the new class to be tested Colour.java using Intellij">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669376674034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass">
+      <created>1669381348931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669381348931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
     <MESSAGE value="Added JUnit5 as a Maven dependency" />
     <MESSAGE value="Created test class ColourTest.java inside new package com.example.demo" />
     <MESSAGE value="Created test method testColour and generated the new class to be tested Colour.java using Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test method testColour and generated the new class to be tested Colour.java using Intellij" />
+    <MESSAGE value="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass" />
   </component>
 </project>
