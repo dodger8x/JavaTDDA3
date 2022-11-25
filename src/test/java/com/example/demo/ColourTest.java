@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 public class ColourTest {
     @Test
     void testColour() {
-        new Colour
+       Colour colourTester =new Colour(.4,.3,.7);
     }
-}
+
+    }
+
