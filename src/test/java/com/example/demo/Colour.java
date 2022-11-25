@@ -17,9 +17,15 @@ public class Colour {
 
     public Colour(String s) {
         this.s=s;
+        float [] ColArray = new float[2];
         int count=0;
-        currentColour=s.substring(count,count+8);
-        this.red= (float) (parseInt(currentColour,2)/255.00);
+        for (int i =0;i<2;i++){
+            currentColour=s.substring(count,count+8);
+            ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
+            count+=8;
+        }
+        this.red=ColArray[0];
+        this.green=ColArray[1];
     }
 
     public float getRed() {
