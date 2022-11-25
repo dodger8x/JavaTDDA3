@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669397909563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java">
+      <created>1669398138605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669398138605</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails">
+      <created>1669398276385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669398276385</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +137,8 @@
     <MESSAGE value="Created test method for getter for red value in ColourTest.java. Then generated getRed method to be tested in Colour.java" />
     <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
     <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
+    <MESSAGE value="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java" />
+    <MESSAGE value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
   </component>
 </project>
