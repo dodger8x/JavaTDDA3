@@ -24,6 +24,9 @@ public class ColourTest {
         Colour colourTester2= new Colour("001100110101010101010101");
         redValue=colourTester2.getRed();
         Assertions.assertEquals((float)(parseInt("00110011",2))/255,redValue);
+        Assertions.assertEquals((float)(parseInt("01010101",2))/255,greenValue);
+
+
 
     }
 }
