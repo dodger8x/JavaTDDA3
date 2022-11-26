@@ -1,16 +1,35 @@
 package com.example.demo;
 
 
+
+
 import static java.lang.Integer.parseInt;
+import static java.lang.System.exit;
 
 public class Colour {
     float red;
     float green;
     float blue;
     public Colour(double red, double green, double blue){
+        try{
+            if(red<0||red>1){
+                throw new IllegalArgumentException("Red value must be between 0 and 1");
+            }
+            if(green<0||green>1){
+                throw new IllegalArgumentException("Green value must be between 0 and 1");
+            }
+            if(blue<0||blue>1){
+                throw new IllegalArgumentException("Blue value must be between 0 and 1");
+            }
+        } catch(Exception $e){
+            System.out.println($e.getMessage());
+            exit(-1);
+
+        }
         this.red= (float) red;
         this.green=(float) green;
         this.blue=(float) blue;
+
     }
     String currentColour;
     String rgbValue;
