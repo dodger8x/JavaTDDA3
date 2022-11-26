@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669471783758</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed">
+      <created>1669491348790</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669491348790</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +263,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass" />
     <MESSAGE value="Refactored variable names in Colour constructor to be more descriptive" />
     <MESSAGE value="Created test method for getter for red value in ColourTest.java. Then generated getRed method to be tested in Colour.java" />
     <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
@@ -282,6 +287,7 @@
     <MESSAGE value="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded" />
     <MESSAGE value="Created new test method testColourInputs to test if values which shouldn't be allowed in Colour would be rejected" />
     <MESSAGE value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
+    <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
   </component>
 </project>
