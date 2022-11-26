@@ -36,6 +36,8 @@ public class ColourTest {
         Colour equalsTester1= new Colour(.4,.3,.7);
         Colour equalsTester2= new Colour(.4,.3,.7);
         Assertions.assertTrue(equalsTester1.equals(equalsTester2));
+        Colour equalsTester3= new Colour(.1,.3,.7);
+        Assertions.assertFalse(equalsTester1.equals(equalsTester3));
     }
 }
 
