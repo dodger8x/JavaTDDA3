@@ -41,7 +41,8 @@ public class ColourTest {
 
     @Test
     void testColourInputs() {
-        
+        Colour colourInputTester= new Colour(1.4,.7,4.8);
+        Assertions.assertTrue(colourInputTester.getRed()<=1&colourInputTester.getRed()>=0);
 
     }
 }
