@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669491348790</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it">
+      <created>1669491714757</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669491714757</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +269,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored variable names in Colour constructor to be more descriptive" />
     <MESSAGE value="Created test method for getter for red value in ColourTest.java. Then generated getRed method to be tested in Colour.java" />
     <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
     <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
@@ -288,6 +293,7 @@
     <MESSAGE value="Created new test method testColourInputs to test if values which shouldn't be allowed in Colour would be rejected" />
     <MESSAGE value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
     <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
+    <MESSAGE value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
   </component>
 </project>

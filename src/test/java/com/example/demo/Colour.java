@@ -36,6 +36,15 @@ public class Colour {
 
     public Colour(String rgbValue) {
         this.rgbValue =rgbValue;
+        try{
+            if(rgbValue.length()!=24) {
+                throw new IllegalArgumentException("Binary value must be 24 characters long");
+            }
+        }catch(Exception $e) {
+            System.out.println($e.getMessage());
+            exit(-1);
+        }
+
         float [] ColArray = new float[3];
         int count=0;
         for (int i =0;i<3;i++){
