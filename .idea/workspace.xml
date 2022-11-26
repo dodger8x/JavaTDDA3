@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Changed assertTrue to assertSame in line 38 as according to Intellij it is a simpler way of doing the assert.">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +32,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo" />
@@ -214,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669463866189</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Caused assert to pass by creating equals method in colour which compares based on values and not reference">
+      <created>1669468607428</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468607428</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded">
+      <created>1669468748077</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468748077</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +242,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added JUnit5 as a Maven dependency" />
     <MESSAGE value="Created test class ColourTest.java inside new package com.example.demo" />
     <MESSAGE value="Created test method testColour and generated the new class to be tested Colour.java using Intellij" />
     <MESSAGE value="Input 3 double values into test constructor which caused the test to fail. Added 3 input paramaters to the constructor to make the test pass" />
@@ -253,6 +265,8 @@
     <MESSAGE value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
     <MESSAGE value="Created new test method testColourEqualsMethod. Created assert to test that 2 colours with the same values were equal. The assert failed" />
     <MESSAGE value="Changed assertTrue to assertSame in line 38 as according to Intellij it is a simpler way of doing the assert." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed assertTrue to assertSame in line 38 as according to Intellij it is a simpler way of doing the assert." />
+    <MESSAGE value="Caused assert to pass by creating equals method in colour which compares based on values and not reference" />
+    <MESSAGE value="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded" />
   </component>
 </project>

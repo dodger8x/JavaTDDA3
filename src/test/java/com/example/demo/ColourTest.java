@@ -17,7 +17,6 @@ public class ColourTest {
        Assertions.assertEquals((float).3,greenValue);
        blueValue=colourTester.getBlue();
        Assertions.assertEquals((float).7,blueValue);
-
     }
 
     @Test
@@ -38,6 +37,12 @@ public class ColourTest {
         Assertions.assertTrue(equalsTester1.equals(equalsTester2));
         Colour equalsTester3= new Colour(.1,.3,.7);
         Assertions.assertFalse(equalsTester1.equals(equalsTester3));
+    }
+
+    @Test
+    void testColourInputs() {
+        
+
     }
 }
 
