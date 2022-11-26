@@ -35,7 +35,7 @@ public class ColourTest {
     void testColourEqualsMethod() {
         Colour equalsTester1= new Colour(.4,.3,.7);
         Colour equalsTester2= new Colour(.4,.3,.7);
-        Assertions.assertTrue(equalsTester1==equalsTester2);
+        Assertions.assertTrue(equalsTester1.equals(equalsTester2));
     }
 }
 

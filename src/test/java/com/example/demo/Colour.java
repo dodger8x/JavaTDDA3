@@ -40,4 +40,9 @@ public class Colour {
     public float getBlue() {
         return blue;
     }
+
+
+    public boolean equals(Colour c2){
+        return red == c2.getRed() & green == c2.getGreen() & blue == c2.getBlue();
+    }
 }
