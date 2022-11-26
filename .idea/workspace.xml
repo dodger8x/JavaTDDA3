@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Refactored s string variable in the second constructor to rgbValue to make it more descriptive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +178,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669407207225</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Created assert to test if value of the last 8 digits of the binary sequence which represented the blue value was equal to the value the getter returned for colourTester2.The assert failed">
+      <created>1669407468114</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669407468114</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Caused the assert to succeed by adding the last 8 digits to the for loop used to calculate red and green and then assigned the value calculated to blue">
+      <created>1669407583913</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669407583913</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Refactored s string variable in the second constructor to rgbValue to make it more descriptive">
+      <created>1669407747429</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669407747429</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +233,9 @@
     <MESSAGE value="Caused the assert to succeed by using substring and parseInt in the second constructor to extract and calculate the value of the binary sequence and made that value equal to red" />
     <MESSAGE value="Created assert to test if value of the middle 8 digits of the binary sequence which represented the green value was equal to the value the getter returned for colourTester2.The assert failed" />
     <MESSAGE value="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively" />
+    <MESSAGE value="Created assert to test if value of the last 8 digits of the binary sequence which represented the blue value was equal to the value the getter returned for colourTester2.The assert failed" />
+    <MESSAGE value="Caused the assert to succeed by adding the last 8 digits to the for loop used to calculate red and green and then assigned the value calculated to blue" />
+    <MESSAGE value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
   </component>
 </project>
