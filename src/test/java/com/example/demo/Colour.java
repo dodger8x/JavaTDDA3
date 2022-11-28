@@ -4,7 +4,7 @@ package com.example.demo;
 
 
 import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
+
 
 public class Colour {
     float red;
@@ -22,8 +22,7 @@ public class Colour {
                 throw new IllegalArgumentException("Blue value must be between 0 and 1");
             }
         } catch(Exception $e){
-            System.out.println($e.getMessage());
-            exit(-1);
+            throw new IllegalArgumentException($e.getMessage());
 
         }
         this.red= (float) red;
@@ -38,11 +37,10 @@ public class Colour {
         this.rgbValue =rgbValue;
         try{
             if(rgbValue.length()!=24) {
-                throw new IllegalArgumentException("Binary value must be 24 characters long");
+                throw new IllegalArgumentException("Binary rgb value must be 24 characters long");
             }
         }catch(Exception $e) {
-            System.out.println($e.getMessage());
-            exit(-1);
+            throw new IllegalArgumentException($e.getMessage());
         }
 
         float [] ColArray = new float[3];

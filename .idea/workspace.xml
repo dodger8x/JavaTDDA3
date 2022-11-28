@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,29 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ColourTest.testColourConstructor1Inputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTDDA3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ColourTest" />
+      <option name="METHOD_NAME" value="testColourConstructor1Inputs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColourTest.testColourConstructor1Inputs" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -254,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669491714757</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block">
+      <created>1669492142099</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669492142099</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created test method for getter for red value in ColourTest.java. Then generated getRed method to be tested in Colour.java" />
     <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
     <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
     <MESSAGE value="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java" />
@@ -294,6 +325,22 @@
     <MESSAGE value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
     <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
     <MESSAGE value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
+    <MESSAGE value="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java</url>
+          <line>42</line>
+          <properties class="com.example.demo.ColourTest" method="testColourConstructor1Inputs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
