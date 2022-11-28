@@ -47,7 +47,12 @@ public class Colour {
         int count=0;
         for (int i =0;i<3;i++){
             currentColour= this.rgbValue.substring(count,count+8);
-            ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
+            try{
+                ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
+            }catch(Exception $e){
+                throw new IllegalArgumentException("24 digit rgb value must be in binary");
+            }
+
             count+=8;
         }
         this.red=ColArray[0];

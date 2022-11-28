@@ -41,9 +41,9 @@ public class ColourTest {
 
     @Test
     void testColourConstructor1Inputs() {
-        Colour colourInputTester= new Colour(9.4,.7,.8);
-        Assertions.assertTrue(colourInputTester.getRed()<=1&colourInputTester.getRed()>=0);
-        Colour colourInputTester2= new Colour("0011001101010101010101011010101010101");
+        //Colour colourInputTester= new Colour(9.4,.7,.8);
+        //Assertions.assertTrue(colourInputTester.getRed()<=1&colourInputTester.getRed()>=0);
+        //Colour colourInputTester2= new Colour("0011001101010101010101011010101010101");
         Colour colourInputTester3= new Colour("001100110101010101230101");
 
     }

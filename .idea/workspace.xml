@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669492142099</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting">
+      <created>1669641713614</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669641713614</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,8 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created assertion that my inputted value was equal to the value my getter gets. The assertion failed" />
-    <MESSAGE value="Caused assertion to succeed by assigning red value in constructor and returning red variable in getter" />
     <MESSAGE value="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java" />
     <MESSAGE value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
     <MESSAGE value="Caused assertion to pass by assigning green value in constructor and returning green variable in getter" />
@@ -326,7 +330,9 @@
     <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
     <MESSAGE value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
     <MESSAGE value="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block" />
+    <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to to the screen" />
+    <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
