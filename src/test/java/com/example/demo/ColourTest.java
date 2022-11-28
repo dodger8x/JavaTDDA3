@@ -18,6 +18,7 @@ public class ColourTest {
        blueValue=colourTester.getBlue();
        Assertions.assertEquals(.7F,blueValue);
        colourTester.setRed(.7F);
+       Assertions.assertEquals(.7F,redValue);
 
     }
 
@@ -42,7 +43,7 @@ public class ColourTest {
     }
 
     @Test
-    void testColourConstructor1Inputs() {
+    void testColourConstructorsInputs() {
         //Colour colourInputTester= new Colour(9.4F,.7F,.8F);
         //Assertions.assertTrue(colourInputTester.getRed()<=1&colourInputTester.getRed()>=0);
         //Colour colourInputTester2= new Colour("0011001101010101010101011010101010101");
