@@ -12,11 +12,13 @@ public class ColourTest {
     void testColourConstructor1() {
        Colour colourTester =new Colour(.4F,.3F,.7F);
        redValue=colourTester.getRed();
-       Assertions.assertEquals((float).4,redValue);
+       Assertions.assertEquals(.4F,redValue);
        greenValue=colourTester.getGreen();
-       Assertions.assertEquals((float).3,greenValue);
+       Assertions.assertEquals(.3F,greenValue);
        blueValue=colourTester.getBlue();
-       Assertions.assertEquals((float).7,blueValue);
+       Assertions.assertEquals(.7F,blueValue);
+       colourTester.setRed(.7F);
+
     }
 
     @Test

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Altered constructors to take in inputs as float rather than as doubles so they did not need to be cast in Colour.java">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669642057960</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Altered constructors to take in inputs as float rather than as doubles so they did not need to be cast in Colour.java">
+      <created>1669644475763</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644475763</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
     <MESSAGE value="Caused assertion to pass by assigning green value in constructor and returning green variable in getter" />
     <MESSAGE value="Created test method for getter for blue value in ColourTest.java. Then generated getBlue method to be tested in Colour.java" />
     <MESSAGE value="Created assert to test that inputted value for blue is equal to value inputted to constructor for blue. The assert fails.Caused assertion to pass by assigning blue value in constructor and returning blue variable in getter" />
@@ -356,21 +360,7 @@
     <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to to the screen" />
     <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting" />
     <MESSAGE value="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java</url>
-          <line>42</line>
-          <properties class="com.example.demo.ColourTest" method="testColourConstructor1Inputs">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Altered constructors to take in inputs as float rather than as doubles so they did not need to be cast in Colour.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Altered constructors to take in inputs as float rather than as doubles so they did not need to be cast in Colour.java" />
   </component>
 </project>
