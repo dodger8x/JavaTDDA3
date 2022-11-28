@@ -86,4 +86,9 @@ public class Colour {
     }
 
 
+    public void setGreen(float v) {
+    }
+
+    public void setBlue(float v) {
+    }
 }
