@@ -10,7 +10,7 @@ public class Colour {
     float red;
     float green;
     float blue;
-    public Colour(double red, double green, double blue){
+    public Colour(float red, float green, float blue){
         try{
             if(red<0||red>1){
                 throw new IllegalArgumentException("Red value must be between 0 and 1");
@@ -25,9 +25,9 @@ public class Colour {
             throw new IllegalArgumentException($e.getMessage());
 
         }
-        this.red= (float) red;
-        this.green=(float) green;
-        this.blue=(float) blue;
+        this.red= red;
+        this.green=green;
+        this.blue=blue;
 
     }
     String currentColour;

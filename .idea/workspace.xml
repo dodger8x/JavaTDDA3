@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
@@ -43,7 +44,22 @@
       <recent name="com.example.demo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ColourTest">
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTDDA3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ColourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTest.testColourConstructor1Inputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTDDA3" />
       <extension name="coverage">
@@ -62,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.testColourConstructor1Inputs" />
       </list>
     </recent_temporary>
@@ -292,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669641713614</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not.">
+      <created>1669642057960</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669642057960</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +331,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created test method for getter for green value in ColourTest.java. Then generated getGreen method to be tested in Colour.java" />
     <MESSAGE value="Created assert to test that inputted value for green is equal to value inputted to constructor for green. The assert fails" />
     <MESSAGE value="Caused assertion to pass by assigning green value in constructor and returning green variable in getter" />
     <MESSAGE value="Created test method for getter for blue value in ColourTest.java. Then generated getBlue method to be tested in Colour.java" />
@@ -332,7 +355,8 @@
     <MESSAGE value="Fixed programme to reject binary sequence if its not 24 character by adding exception handling in try catch block" />
     <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to to the screen" />
     <MESSAGE value="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed exception handling to throw exceptions rather than printing out messages to the screen and exiting" />
+    <MESSAGE value="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
