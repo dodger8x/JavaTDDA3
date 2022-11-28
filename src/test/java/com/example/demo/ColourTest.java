@@ -38,8 +38,8 @@ public class ColourTest {
         Assertions.assertEquals((float)(parseInt("01110000",2))/255,colourTester2.getRed());
         colourTester2.setGreen("10000000");
         Assertions.assertEquals((float)(parseInt("10000000",2))/255,colourTester2.getGreen());
-        colourTester2.setBlue("10000011");
-        Assertions.assertEquals((float)(parseInt("10000011",2))/255,colourTester2.getBlue());
+        colourTester2.setBlue("10000111");
+        Assertions.assertEquals((float)(parseInt("10000111",2))/255,colourTester2.getBlue());
     }
 
     @Test
