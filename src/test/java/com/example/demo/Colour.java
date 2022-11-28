@@ -77,7 +77,12 @@ public class Colour {
         return red == c2.getRed() & green == c2.getGreen() & blue == c2.getBlue();
     }
 
-    public void setRed(float v) {
+    public void setRed(float newRed) {
+        if(red<0||red>1){
+            throw new IllegalArgumentException("Red value must be between 0 and 1");
+        }else{
+            this.red=newRed;
+        }
     }
 
 

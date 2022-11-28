@@ -18,7 +18,7 @@ public class ColourTest {
        blueValue=colourTester.getBlue();
        Assertions.assertEquals(.7F,blueValue);
        colourTester.setRed(.7F);
-       Assertions.assertEquals(.7F,redValue);
+       Assertions.assertEquals(.7F,colourTester.getRed());
 
     }
 

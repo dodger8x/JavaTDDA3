@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created test for setRed in ColourTest and then generated method to be tested in Colour">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created assert to test that redValue was equal to the inputted value to setRed. The assert failed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669645296017</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Created assert to test that redValue was equal to the inputted value to setRed. The assert failed">
+      <created>1669659002382</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669659002382</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created test method for getter for blue value in ColourTest.java. Then generated getBlue method to be tested in Colour.java" />
     <MESSAGE value="Created assert to test that inputted value for blue is equal to value inputted to constructor for blue. The assert fails.Caused assertion to pass by assigning blue value in constructor and returning blue variable in getter" />
     <MESSAGE value="Created test constructor in ColourTest.java to test new constructor which takes in a 24 character long binary sequence. Then generated that constructor in Colour.java" />
     <MESSAGE value="Renamed testColour to testColourConstructor1 and made new test method testColourConstructor2. Moved tests for the second constructor to testColourConstructor2 to make the test file neater" />
@@ -369,6 +376,18 @@
     <MESSAGE value="Added exception handling in case 24 digit rgb value was not in binary and threw IllegalArgumentException if it was not." />
     <MESSAGE value="Altered constructors to take in inputs as float rather than as doubles so they did not need to be cast in Colour.java" />
     <MESSAGE value="Created test for setRed in ColourTest and then generated method to be tested in Colour" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test for setRed in ColourTest and then generated method to be tested in Colour" />
+    <MESSAGE value="Created assert to test that redValue was equal to the inputted value to setRed. The assert failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created assert to test that redValue was equal to the inputted value to setRed. The assert failed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
