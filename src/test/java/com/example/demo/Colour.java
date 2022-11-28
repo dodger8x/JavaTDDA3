@@ -86,19 +86,28 @@ public class Colour {
     }
 
 
-    public void setGreen(float v) {
+    public void setGreen(float newGreen) {
         if(green<0||green>1){
             throw new IllegalArgumentException("Green value must be between 0 and 1");
         }else{
-            this.green=v;
+            this.green=newGreen;
         }
     }
 
-    public void setBlue(float v) {
+    public void setBlue(float newBlue) {
         if(blue<0||blue>1){
             throw new IllegalArgumentException("Blue value must be between 0 and 1");
         }else{
-            this.blue=v;
+            this.blue=newBlue;
         }
+    }
+
+    public void setRed(String s) {
+    }
+    
+    public void setGreen(String s) {
+    }
+
+    public void setBlue(String s) {
     }
 }

@@ -21,8 +21,8 @@ public class ColourTest {
        Assertions.assertEquals(.7F,colourTester.getRed());
        colourTester.setGreen(.8F);
        colourTester.setBlue(.9F);
-       Assertions.assertEquals(.7F,colourTester.getGreen());
-       Assertions.assertEquals(.7F,colourTester.getBlue());
+       Assertions.assertEquals(.8F,colourTester.getGreen());
+       Assertions.assertEquals(.9F,colourTester.getBlue());
     }
 
     @Test
@@ -34,6 +34,12 @@ public class ColourTest {
         Assertions.assertEquals((float)(parseInt("00110011",2))/255,redValue);
         Assertions.assertEquals((float)(parseInt("01010101",2))/255,greenValue);
         Assertions.assertEquals((float)(parseInt("01010101",2))/255,blueValue);
+        colourTester2.setRed("01110000");
+        Assertions.assertEquals((float)(parseInt("01110000",2))/255,colourTester2.getRed());
+        colourTester2.setGreen("10000000");
+        Assertions.assertEquals((float)(parseInt("10000000",2))/255,colourTester2.getGreen());
+        colourTester2.setBlue("10000011");
+        Assertions.assertEquals((float)(parseInt("10000011",2))/255,colourTester2.getBlue());
     }
 
     @Test
