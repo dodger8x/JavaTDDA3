@@ -78,16 +78,17 @@ public class Colour {
     }
 
     public void setRed(float newRed) {
-        if(red<0||red>1){
+        if(newRed<0||newRed>1){
             throw new IllegalArgumentException("Red value must be between 0 and 1");
         }else{
             this.red=newRed;
         }
+
     }
 
 
     public void setGreen(float newGreen) {
-        if(green<0||green>1){
+        if(newGreen<0||newGreen>1){
             throw new IllegalArgumentException("Green value must be between 0 and 1");
         }else{
             this.green=newGreen;
@@ -95,7 +96,7 @@ public class Colour {
     }
 
     public void setBlue(float newBlue) {
-        if(blue<0||blue>1){
+        if(newBlue<0||newBlue>1){
             throw new IllegalArgumentException("Blue value must be between 0 and 1");
         }else{
             this.blue=newBlue;
@@ -103,11 +104,56 @@ public class Colour {
     }
 
     public void setRed(String s) {
+        float newRed;
+
+        try{
+            if(s.length()!=8) {
+                throw new IllegalArgumentException("Binary red value must be 8 digits long");
+            }
+        }catch(Exception $e){
+            throw new IllegalArgumentException($e.getMessage());
+        }
+        try{
+            newRed=(float) (parseInt(s,2)/255.00);
+        }catch(Exception $e){
+            throw new IllegalArgumentException("8 digit value must be binary");
+        }
+        this.red=newRed;
     }
     
     public void setGreen(String s) {
+        float newGreen;
+
+        try{
+            if(s.length()!=8) {
+                throw new IllegalArgumentException("Binary green value must be 8 digits long");
+            }
+        }catch(Exception $e){
+            throw new IllegalArgumentException($e.getMessage());
+        }
+        try{
+            newGreen=(float) (parseInt(s,2)/255.00);
+        }catch(Exception $e){
+            throw new IllegalArgumentException("8 digit value must be binary");
+        }
+        this.green=newGreen;
     }
 
     public void setBlue(String s) {
+        float newBlue;
+
+        try{
+            if(s.length()!=8) {
+                throw new IllegalArgumentException("Binary blue value must be 8 digits long");
+            }
+        }catch(Exception $e){
+            throw new IllegalArgumentException($e.getMessage());
+        }
+        try{
+            newBlue=(float) (parseInt(s,2)/255.00);
+        }catch(Exception $e){
+            throw new IllegalArgumentException("8 digit value must be binary");
+        }
+        this.blue=newBlue;
     }
 }
