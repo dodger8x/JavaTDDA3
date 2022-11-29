@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Changed access modifiers for variables in Colour to private.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
-    </list>
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Added Javadoc to Colour.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -399,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669739038012</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added Javadoc to Colour.java">
+      <created>1669748914643</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669748914643</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
     <MESSAGE value="Created new test method testColourEqualsMethod. Created assert to test that 2 colours with the same values were equal. The assert failed" />
     <MESSAGE value="Changed assertTrue to assertSame in line 38 as according to Intellij it is a simpler way of doing the assert." />
     <MESSAGE value="Caused assert to pass by creating equals method in colour which compares based on values and not reference" />
@@ -439,6 +443,7 @@
     <MESSAGE value="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters" />
     <MESSAGE value="Refactored variables in setters in Colour to have more descriptive names" />
     <MESSAGE value="Changed access modifiers for variables in Colour to private." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed access modifiers for variables in Colour to private." />
+    <MESSAGE value="Added Javadoc to Colour.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Javadoc to Colour.java" />
   </component>
 </project>

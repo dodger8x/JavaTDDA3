@@ -10,20 +10,33 @@ public class ColourTest {
     float blueValue;
     @Test
     void testColourConstructor1() {
-       Colour colourTester =new Colour(.4F,.3F,.7F);
-       redValue=colourTester.getRed();
-       Assertions.assertEquals(.4F,redValue);
-       greenValue=colourTester.getGreen();
-       Assertions.assertEquals(.3F,greenValue);
-       blueValue=colourTester.getBlue();
-       Assertions.assertEquals(.7F,blueValue);
-       colourTester.setRed(.7F);
-       Assertions.assertEquals(.7F,colourTester.getRed());
-       colourTester.setGreen(.8F);
-       colourTester.setBlue(.9F);
-       Assertions.assertEquals(.8F,colourTester.getGreen());
-       Assertions.assertEquals(.9F,colourTester.getBlue());
+        Colour colourTester =new Colour(.4F,.3F,.7F);
+
     }
+
+    @Test
+    void testColourConstructor1Getters() {
+        Colour colourTester =new Colour(.4F,.3F,.7F);
+        redValue=colourTester.getRed();
+        Assertions.assertEquals(.4F,redValue);
+        greenValue=colourTester.getGreen();
+        Assertions.assertEquals(.3F,greenValue);
+        blueValue=colourTester.getBlue();
+        Assertions.assertEquals(.7F,blueValue);
+    }
+
+    @Test
+    void testColourConstructor1Setters() {
+        Colour colourTester =new Colour(.4F,.3F,.7F);
+        colourTester.setRed(.7F);
+        Assertions.assertEquals(.7F,colourTester.getRed());
+        colourTester.setGreen(.8F);
+        colourTester.setBlue(.9F);
+        Assertions.assertEquals(.8F,colourTester.getGreen());
+        Assertions.assertEquals(.9F,colourTester.getBlue());
+    }
+
+
 
     @Test
     void testColourConstructor2() {
