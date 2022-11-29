@@ -7,9 +7,9 @@ import static java.lang.Integer.parseInt;
 
 
 public class Colour {
-    float red;
-    float green;
-    float blue;
+    private float red;
+    private float green;
+    private float blue;
     public Colour(float red, float green, float blue){
         try{
             if(red<0||red>1){
@@ -30,11 +30,10 @@ public class Colour {
         this.blue=blue;
 
     }
-    String currentColour;
-    String rgbValue;
+
 
     public Colour(String rgbValue) {
-        this.rgbValue =rgbValue;
+        String currentColour;
         try{
             if(rgbValue.length()!=24) {
                 throw new IllegalArgumentException("Binary rgb value must be 24 characters long");
@@ -46,7 +45,7 @@ public class Colour {
         float [] ColArray = new float[3];
         int count=0;
         for (int i =0;i<3;i++){
-            currentColour= this.rgbValue.substring(count,count+8);
+            currentColour= rgbValue.substring(count,count+8);
             try{
                 ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
             }catch(Exception $e){
@@ -122,7 +121,7 @@ public class Colour {
     }
     
     public void setGreen(String binaryGreenValue) {
-        float newGreen;
+         float newGreen;
 
         try{
             if(binaryGreenValue.length()!=8) {

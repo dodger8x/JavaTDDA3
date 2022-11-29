@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Changed access modifiers for variables in Colour to private.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
     </list>
@@ -385,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669667569930</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Refactored variables in setters in Colour to have more descriptive names">
+      <created>1669732065766</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669732065766</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,8 +407,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created assert to test if value of the last 8 digits of the binary sequence which represented the blue value was equal to the value the getter returned for colourTester2.The assert failed" />
-    <MESSAGE value="Caused the assert to succeed by adding the last 8 digits to the for loop used to calculate red and green and then assigned the value calculated to blue" />
     <MESSAGE value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
     <MESSAGE value="Created new test method testColourEqualsMethod. Created assert to test that 2 colours with the same values were equal. The assert failed" />
     <MESSAGE value="Changed assertTrue to assertSame in line 38 as according to Intellij it is a simpler way of doing the assert." />
@@ -425,6 +430,8 @@
     <MESSAGE value="Created test for setRed, setGreen and setBlue for the second constructor in ColourTest and then generated methods to be tested in Colour" />
     <MESSAGE value="Created assert to test that redValue greenValue and blueValue were equal to the inputted value into setGreen and setBlue for the second constructor. The asserts failed" />
     <MESSAGE value="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters" />
+    <MESSAGE value="Refactored variables in setters in Colour to have more descriptive names" />
+    <MESSAGE value="Changed access modifiers for variables in Colour to private." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed access modifiers for variables in Colour to private." />
   </component>
 </project>
