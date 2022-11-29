@@ -103,54 +103,54 @@ public class Colour {
         }
     }
 
-    public void setRed(String s) {
+    public void setRed(String binaryRedValue) {
         float newRed;
 
         try{
-            if(s.length()!=8) {
+            if(binaryRedValue.length()!=8) {
                 throw new IllegalArgumentException("Binary red value must be 8 digits long");
             }
         }catch(Exception $e){
             throw new IllegalArgumentException($e.getMessage());
         }
         try{
-            newRed=(float) (parseInt(s,2)/255.00);
+            newRed=(float) (parseInt(binaryRedValue,2)/255.00);
         }catch(Exception $e){
             throw new IllegalArgumentException("8 digit value must be binary");
         }
         this.red=newRed;
     }
     
-    public void setGreen(String s) {
+    public void setGreen(String binaryGreenValue) {
         float newGreen;
 
         try{
-            if(s.length()!=8) {
+            if(binaryGreenValue.length()!=8) {
                 throw new IllegalArgumentException("Binary green value must be 8 digits long");
             }
         }catch(Exception $e){
             throw new IllegalArgumentException($e.getMessage());
         }
         try{
-            newGreen=(float) (parseInt(s,2)/255.00);
+            newGreen=(float) (parseInt(binaryGreenValue,2)/255.00);
         }catch(Exception $e){
             throw new IllegalArgumentException("8 digit value must be binary");
         }
         this.green=newGreen;
     }
 
-    public void setBlue(String s) {
+    public void setBlue(String binaryBlueValue) {
         float newBlue;
 
         try{
-            if(s.length()!=8) {
+            if(binaryBlueValue.length()!=8) {
                 throw new IllegalArgumentException("Binary blue value must be 8 digits long");
             }
         }catch(Exception $e){
             throw new IllegalArgumentException($e.getMessage());
         }
         try{
-            newBlue=(float) (parseInt(s,2)/255.00);
+            newBlue=(float) (parseInt(binaryBlueValue,2)/255.00);
         }catch(Exception $e){
             throw new IllegalArgumentException("8 digit value must be binary");
         }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Created assert to test that redValue greenValue and blueValue were equal to the inputted value into setGreen and setBlue for the second constructor. The asserts failed">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
     </list>
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669664312550</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters">
+      <created>1669667569930</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669667569930</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Caused the assert to succeed by using a for loop to repeat the process used to calculate reds value and added the result to an array the values of which were then used to assign red and green respectively" />
     <MESSAGE value="Created assert to test if value of the last 8 digits of the binary sequence which represented the blue value was equal to the value the getter returned for colourTester2.The assert failed" />
     <MESSAGE value="Caused the assert to succeed by adding the last 8 digits to the for loop used to calculate red and green and then assigned the value calculated to blue" />
     <MESSAGE value="Refactored s string variable in the second constructor to rgbValue to make it more descriptive" />
@@ -418,6 +424,7 @@
     <MESSAGE value="Caused asserts to succeed by assigning the inputted variable to the green and blue value in Colour. Also added exception handling for illegal values." />
     <MESSAGE value="Created test for setRed, setGreen and setBlue for the second constructor in ColourTest and then generated methods to be tested in Colour" />
     <MESSAGE value="Created assert to test that redValue greenValue and blueValue were equal to the inputted value into setGreen and setBlue for the second constructor. The asserts failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created assert to test that redValue greenValue and blueValue were equal to the inputted value into setGreen and setBlue for the second constructor. The asserts failed" />
+    <MESSAGE value="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caused asserts to pass by having binary values being changed to floats and and then assigned in their respective setters" />
   </component>
 </project>
