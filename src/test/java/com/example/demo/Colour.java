@@ -1,15 +1,24 @@
 package com.example.demo;
 
 
-
-
 import static java.lang.Integer.parseInt;
 
 
 public class Colour {
+    /**
+     * Represents a Colour using red, blue and green values
+     */
     private float red;
     private float green;
     private float blue;
+
+    /**
+     * Constructor for colour which takes in 3 floats representing red, green and blue
+     * @param red float which represents the red value
+     * @param green float which represents the green value
+     * @param blue float which represents the blue value
+     */
+
     public Colour(float red, float green, float blue){
         try{
             if(red<0||red>1){
@@ -31,7 +40,10 @@ public class Colour {
 
     }
 
-
+    /**
+     * Constructor for colour which takes in a 24 character binary string representing rgb values
+     * @param rgbValue String where first, middle  and last 8 characters represent red green and blue values respectively
+     */
     public Colour(String rgbValue) {
         String currentColour;
         try{
@@ -59,23 +71,43 @@ public class Colour {
         this.blue=ColArray[2];
     }
 
+    /**
+     * Getter for red
+     * @return red
+     */
     public float getRed() {
         return red;
     }
 
+    /**
+     * Getter for green
+     * @return green
+     */
     public float getGreen() {
         return green;
     }
 
+    /**
+     * Getter for blue
+     * @return blue
+     */
     public float getBlue() {
         return blue;
     }
 
-
+    /**
+     * Compares 2 colours to see if they have the same value and are therefore equal
+     * @param c2 The 2nd colour to be compared
+     * @return True or False statement depending on if the 2 colours are equal
+     */
     public boolean equals(Colour c2){
         return red == c2.getRed() & green == c2.getGreen() & blue == c2.getBlue();
     }
 
+    /**
+     * Setter for red
+     * @param newRed Float value red is to be set to
+     */
     public void setRed(float newRed) {
         if(newRed<0||newRed>1){
             throw new IllegalArgumentException("Red value must be between 0 and 1");
@@ -85,6 +117,10 @@ public class Colour {
 
     }
 
+    /**
+     * Setter for green
+     * @param newGreen Float value green is to be set to
+     */
 
     public void setGreen(float newGreen) {
         if(newGreen<0||newGreen>1){
@@ -94,6 +130,11 @@ public class Colour {
         }
     }
 
+    /**
+     * Setter for blue
+     * @param newBlue Float value blue is to be set to
+     */
+
     public void setBlue(float newBlue) {
         if(newBlue<0||newBlue>1){
             throw new IllegalArgumentException("Blue value must be between 0 and 1");
@@ -102,6 +143,10 @@ public class Colour {
         }
     }
 
+    /**
+     * Setter for red
+     * @param binaryRedValue String 8 digit value which contains red value in binary
+     */
     public void setRed(String binaryRedValue) {
         float newRed;
 
@@ -119,7 +164,11 @@ public class Colour {
         }
         this.red=newRed;
     }
-    
+
+    /**
+     * Setter for green
+     * @param binaryGreenValue String 8 digit value which contains green value in binary
+     */
     public void setGreen(String binaryGreenValue) {
          float newGreen;
 
@@ -138,6 +187,10 @@ public class Colour {
         this.green=newGreen;
     }
 
+    /**
+     * Setter for blue
+     * @param binaryBlueValue String 8 digit value which contains blue value in binary
+     */
     public void setBlue(String binaryBlueValue) {
         float newBlue;
 
