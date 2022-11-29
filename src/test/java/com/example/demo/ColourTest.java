@@ -76,10 +76,11 @@ public class ColourTest {
 
     @Test
     void testColourConstructorsInputs() {
-        //Colour colourInputTester= new Colour(9.4F,.7F,.8F);
-        //Assertions.assertTrue(colourInputTester.getRed()<=1&colourInputTester.getRed()>=0);
-        //Colour colourInputTester2= new Colour("0011001101010101010101011010101010101");
-        //Colour colourInputTester3= new Colour("001100110101010101230101");
+        Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour(9.4F, .7f,.8F));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour("0011001101010101010101011010101010101"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour("001100110101010101230101"));
+
+
 
     }
 }
