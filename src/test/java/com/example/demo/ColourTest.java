@@ -75,7 +75,7 @@ public class ColourTest {
     }
 
     @Test
-    void testColourConstructorsInputs() {
+    void testColourConstructorsExceptionHandling() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour(9.4F, .7f,.8F));
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour("0011001101010101010101011010101010101"));
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour("001100110101010101230101"));
