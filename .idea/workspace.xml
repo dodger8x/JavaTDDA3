@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Separated testColourConstructor2 test in ColourTest into 3 different test for the constructor, getters and setter to be neater">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
     </list>
@@ -421,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669751118077</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Altered testColourConstructorInputs to assert that an exception is thrown rather than just throwing an exception and failing the test">
+      <created>1669752148852</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752148852</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling">
+      <created>1669752198284</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752198284</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,8 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Caused assert to pass by creating equals method in colour which compares based on values and not reference" />
-    <MESSAGE value="Created another assert to check if 2 instance of Colour.java with different values would return false when inputted to equals. The assert succeeded" />
     <MESSAGE value="Created new test method testColourInputs to test if values which shouldn't be allowed in Colour would be rejected" />
     <MESSAGE value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
     <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
@@ -461,6 +473,8 @@
     <MESSAGE value="Added Javadoc to Colour.java" />
     <MESSAGE value="Separated testColourConstructor1 test in ColourTest into 3 different test for the constructor, getters and setter to be neater" />
     <MESSAGE value="Separated testColourConstructor2 test in ColourTest into 3 different test for the constructor, getters and setter to be neater" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated testColourConstructor2 test in ColourTest into 3 different test for the constructor, getters and setter to be neater" />
+    <MESSAGE value="Altered testColourConstructorInputs to assert that an exception is thrown rather than just throwing an exception and failing the test" />
+    <MESSAGE value="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling" />
   </component>
 </project>

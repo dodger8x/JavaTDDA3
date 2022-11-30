@@ -8,12 +8,19 @@ public class ColourTest {
     float redValue;
     float greenValue;
     float blueValue;
+
+    /**
+     * Tests constructor which takes in 3 floats to see if it can be successfully instantiated
+     */
     @Test
     void testColourConstructor1() {
         Colour colourTester =new Colour(.4F,.3F,.7F);
 
     }
 
+    /**
+     * Tests if getters return the same value as was inputted to the constructor
+     */
     @Test
     void testColourConstructor1Getters() {
         Colour colourTester =new Colour(.4F,.3F,.7F);
@@ -25,6 +32,9 @@ public class ColourTest {
         Assertions.assertEquals(.7F,blueValue);
     }
 
+    /**
+     * Tests if setters set the value of the variables in the class to the inputted value for the 1st constructor
+     */
     @Test
     void testColourConstructor1Setters() {
         Colour colourTester =new Colour(.4F,.3F,.7F);
@@ -37,11 +47,17 @@ public class ColourTest {
     }
 
 
+    /**
+     * Tests if constructor which takes in 24 character binary string successfully instantiates object
+     */
     @Test
     void testColourConstructor2() {
         Colour colourTester2= new Colour("001100110101010101010101");
     }
 
+    /**
+     * Tests if getters return the same value as was inputted to the constructor
+     */
     @Test
     void testColourConstructor2Getters() {
         Colour colourTester2= new Colour("001100110101010101010101");
@@ -53,6 +69,9 @@ public class ColourTest {
         Assertions.assertEquals((float)(parseInt("01010101",2))/255,blueValue);
     }
 
+    /**
+     * Tests if setters set the value of the variables in the class to the inputted value for the 2nd constructor
+     */
     @Test
     void testColourConstructor2Setters() {
         Colour colourTester2= new Colour("001100110101010101010101");
@@ -64,7 +83,9 @@ public class ColourTest {
         Assertions.assertEquals((float)(parseInt("10000111",2))/255,colourTester2.getBlue());
     }
 
-
+    /**
+     * Tests if the equals method works for instances which are equal and instances which aren't
+     */
     @Test
     void testColourEqualsMethod() {
         Colour equalsTester1= new Colour(.4F,.3F,.7F);
@@ -74,6 +95,9 @@ public class ColourTest {
         Assertions.assertFalse(equalsTester1.equals(equalsTester3));
     }
 
+    /**
+     * Tests if Constructors successfully throw exceptions when exceptions should be thrown
+     */
     @Test
     void testColourConstructorsExceptionHandling() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Colour(9.4F, .7f,.8F));
