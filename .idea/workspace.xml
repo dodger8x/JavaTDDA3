@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling">
+    <list default="true" id="685636a0-0b25-4baf-8fda-2621196aa786" name="Changes" comment="Added javadoc to ColourTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669292064058</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Added JUnit5 as a Maven dependency">
-      <created>1669292311865</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1669292311865</updated>
     </task>
     <task id="LOCAL-00002" summary="Created test class ColourTest.java inside new package com.example.demo">
       <created>1669376394732</created>
@@ -435,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669752198284</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added javadoc to ColourTest.java">
+      <created>1669816428678</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669816428680</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created new test method testColourInputs to test if values which shouldn't be allowed in Colour would be rejected" />
     <MESSAGE value="Created new instance of Colour in testColourInputs to test if values for red, blue and green not between 0 and 1 would be rejected and created an assert to check this. The assert failed" />
     <MESSAGE value="Fixed failing assert by adding exception handling in first constructor for if values are not between 0 and 1. Now the programme does not allow you to initaliase values if they are not allowed" />
     <MESSAGE value="Tested if programme rejects binary input longer than 24 characters which it should. It did not reject it" />
@@ -475,6 +474,7 @@
     <MESSAGE value="Separated testColourConstructor2 test in ColourTest into 3 different test for the constructor, getters and setter to be neater" />
     <MESSAGE value="Altered testColourConstructorInputs to assert that an exception is thrown rather than just throwing an exception and failing the test" />
     <MESSAGE value="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed testColourConstructorInputs name to testColourConstructorsExceptionHandling" />
+    <MESSAGE value="Added javadoc to ColourTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added javadoc to ColourTest.java" />
   </component>
 </project>

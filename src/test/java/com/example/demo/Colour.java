@@ -3,11 +3,10 @@ package com.example.demo;
 
 import static java.lang.Integer.parseInt;
 
-
+/**
+ * Represents a Colour using red, blue and green values
+ */
 public class Colour {
-    /**
-     * Represents a Colour using red, blue and green values
-     */
     private float red;
     private float green;
     private float blue;
@@ -59,7 +58,7 @@ public class Colour {
         for (int i =0;i<3;i++){
             currentColour= rgbValue.substring(count,count+8);
             try{
-                ColArray[i]= (float) (parseInt(currentColour,2)/255.00);
+                ColArray[i]= (parseInt(currentColour,2)/255.00F);
             }catch(Exception $e){
                 throw new IllegalArgumentException("24 digit rgb value must be in binary");
             }
